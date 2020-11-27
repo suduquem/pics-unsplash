@@ -1,0 +1,12 @@
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* autofill: decide la cantidad de columnas que quiere poner */
+  /* la columna será de tamaño mínimo 250px y máximo de 1fr: igualmente espaciadas*/
+  grid-gap: 1px 10px; /* Separación entre imágenes vertical y horizontalmente*/
+  grid-auto-rows: 10px; /* Es el largo de los spans para las imagenes */
+}
+
+.image-list img {
+  width: 250px;
+}
